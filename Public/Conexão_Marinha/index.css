@@ -96,3 +96,17 @@ section img {
     background-color: #ffffff; /* Fundo branco para imagens */
 }
 
+button {
+    width: 60px;
+    padding: 10px;
+    background-color: #f2f4f7;
+    color: rgb(7, 7, 7);
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #828385;
+    
+}
