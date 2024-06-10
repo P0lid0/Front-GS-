@@ -15,7 +15,7 @@ Visualizar mensagens de um usuário específico: Facilita a visualização das m
 Informações Relevantes:
 Versões futuras do projeto incluirão funcionalidades mais avançadas, como autenticação de usuários, integração com dispositivos de hardware e apresentação de dados coletados de forma mais intuitiva e analítica.
 
-Espera-se que o Front-GS- contribua significativamente para a conservação dos ambientes marinhos, facilitando a conexão entre ONGs e investidores e promovendo um maior investimento em iniciativas de preservação ambiental.
+Espera-se que a Conexão Marinha contribua significativamente para a conservação dos ambientes marinhos, facilitando a conexão entre ONGs e investidores e promovendo um maior investimento em iniciativas de preservação ambiental.
 
 Autores:
 Pedro Polido RM: 555556
