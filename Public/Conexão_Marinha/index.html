@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conexão Marinha</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Public/css/fonts.css">
     <link rel="stylesheet" href="/Public/css/global.css">
     <link rel="stylesheet" href="index.css">
-    
-    
+</head>
+
 <body>
-    
+
     <header>
         <div class="container">
             <h1>Conexão Marinha</h1>
@@ -21,125 +23,158 @@
                     <li><a href="#objetivos">Objetivos</a></li>
                     <li><a href="#publico">Público Alvo</a></li>
                     <li><a href="#beneficios">Benefícios</a></li>
-                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#tecnologia">Apoie</a></li>
                     <li> <button id="loginButton">Login</button> </li>
 
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/beneficios.jpg" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/objetivos.jpeg" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/problema.png" class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
         <section id="problema" class="container">
-            <h2>O Problema</h2>
-            <img src= "/Public/Conexão_Marinha/images/problema.png" alt="Imagem representando o problema">
-            <p>Atualmente, muitas ONGs que trabalham na proteção do meio ambiente marinho enfrentam dificuldades significativas para encontrar financiamento adequado para seus projetos. Esses desafios são agravados pela escassez de recursos e pela crescente necessidade de comprovar a eficácia e o impacto de suas ações. Ao mesmo tempo, os investidores, embora desejosos de contribuir para causas ambientais, muitas vezes hesitam em apoiar essas iniciativas devido à falta de transparência e confiabilidade nos dados apresentados pelas ONGs. Essa desconfiança impede que os fundos necessários sejam direcionados para onde são mais necessários, limitando o alcance e a eficácia das iniciativas de conservação marinha.
-
-            Nosso objetivo é resolver esse problema através da criação de uma plataforma inovadora que conecte ONGs e investidores de maneira eficaz e segura. Esta plataforma permitirá que as ONGs apresentem seus projetos de forma transparente e confiável, oferecendo dados precisos e verificáveis sobre o estado do meio ambiente marinho que estão cuidando. Utilizando tecnologia de ponta, nossa solução incluirá a implementação de dispositivos de medição de baixo custo, que fornecerão informações detalhadas e em tempo real sobre as condições ambientais, permitindo um monitoramento contínuo e preciso.
-                
-            Além disso, a plataforma facilitará a comunicação e o compartilhamento de resultados entre as ONGs e os investidores, criando um ambiente de confiança mútua. As ONGs poderão demonstrar claramente o impacto de suas atividades, enquanto os investidores terão acesso a dados concretos que justificam e validam seu apoio financeiro. Esta transparência não apenas aumentará a confiança dos investidores, mas também incentivará uma maior participação e compromisso com os projetos ambientais.
-                
-            Com essa abordagem, esperamos não apenas melhorar a captação de recursos para as ONGs, mas também promover um impacto ambiental positivo mais significativo e duradouro. Ao unir tecnologia e transparência, nossa plataforma proporcionará um suporte essencial para que as ONGs possam continuar suas importantes atividades de preservação marinha, ao mesmo tempo em que oferece aos investidores a certeza de que seus recursos estão sendo utilizados de maneira eficaz e responsável.</p>
+            <div class="texto-direita">
+                <h2>O Problema</h2>
+                <p>Muitas ONGs de proteção marinha enfrentam dificuldades para conseguir financiamento devido à escassez de
+                    recursos e à necessidade de comprovar a eficácia de suas ações. Os investidores hesitam em apoiar essas
+                    iniciativas por falta de transparência nos dados apresentados. Para resolver isso, criamos uma
+                    plataforma que conecta ONGs e investidores de maneira segura, permitindo que ONGs apresentem projetos
+                    com dados precisos e verificáveis. A plataforma facilita a comunicação e demonstra o impacto das
+                    atividades, aumentando a confiança dos investidores. Assim, esperamos melhorar a captação de recursos e
+                    promover um impacto ambiental positivo duradouro.</p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/problema.png" alt="Imagem representando o problema">
+            </div>
         </section>
 
-        <section id="sulucao" class="container">
-            <h2>Solução</h2>
-            <img src=/Public/Conexão_Marinha/images/Solução.jpg alt="Imagem representando uma ideia">
-            <p>Para solucionar o problema apresentado, desenvolvemos um dispositivo inovador que mede o nível de poluição da água em regiões específicas. Este dispositivo é disponibilizado para as ONGs que desejam integrar nossa plataforma, e é oferecido a um valor de custo acessível para garantir que mesmo as organizações com recursos limitados possam utilizá-lo. O dispositivo proporciona uma maneira precisa e confiável de coletar dados sobre a qualidade da água, o que, por sua vez, aumenta a credibilidade das informações apresentadas pelas ONGs aos investidores.
-
-            A coleta de dados precisos é fundamental para que as ONGs possam demonstrar de forma concreta o impacto de suas atividades. Com o uso deste dispositivo, as ONGs terão a capacidade de monitorar a qualidade da água em tempo real, registrar mudanças ao longo do tempo e identificar áreas que necessitam de intervenção urgente. Esses dados são essenciais não apenas para a transparência, mas também para a eficácia das ações de preservação ambiental.
-                
-            Além disso, nossa plataforma utiliza tecnologia de ponta para conectar as partes interessadas e facilitar a comunicação e o processo de financiamento. A plataforma serve como um ponto de encontro virtual onde as ONGs podem compartilhar seus projetos, resultados e necessidades de financiamento de maneira clara e acessível. Os investidores, por sua vez, podem explorar diferentes iniciativas, analisar dados confiáveis e tomar decisões informadas sobre onde direcionar seus recursos.
-                
-            Nossa solução tecnológica também inclui ferramentas de análise e relatórios detalhados, que permitem às ONGs apresentar seus dados de forma organizada e profissional. Essas ferramentas não só aumentam a visibilidade dos projetos, mas também fortalecem a confiança dos investidores, mostrando de forma transparente como seus recursos estão sendo utilizados e qual o impacto real gerado.</p>
+        <section id="solucao" class="container">
+            <div class="texto-direita">
+                <h2>Solução</h2>
+                <p>Desenvolvemos um dispositivo acessível que mede a poluição da água para ONGs, proporcionando dados
+                    precisos e confiáveis. Esse dispositivo permite que as ONGs monitorem a qualidade da água em tempo real,
+                    aumentando a credibilidade das informações para os investidores. Nossa plataforma conecta ONGs e
+                    investidores, facilitando a comunicação e o financiamento de projetos. Com ferramentas de análise e
+                    relatórios detalhados, a plataforma aumenta a visibilidade e a transparência dos projetos, fortalecendo
+                    a confiança dos investidores e mostrando claramente o impacto dos recursos investidos.</p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/Solução.jpg" alt="Imagem representando uma ideia">
+            </div>
         </section>
 
         <section id="objetivos" class="container">
-            <h2>Objetivos</h2>
-            <img src=/Public/Conexão_Marinha/images/objetivos.jpeg alt="Imagem representando os objetivos">
-            <p>Nosso objetivo é facilitar o encontro entre organizações não governamentais (ONGs) dedicadas à preservação do meio ambiente marinho e potenciais investidores. Queremos criar uma plataforma inovadora que funcione como um intermediário confiável, conectando investidores interessados em apoiar iniciativas de conservação marinha com ONGs que buscam financiamento para seus projetos.
-
-            A plataforma será um ponto de encontro virtual onde as ONGs poderão apresentar seus projetos de maneira detalhada e transparente, fornecendo informações precisas e verificáveis sobre suas atividades e impactos ambientais. Utilizando tecnologia avançada, a plataforma permitirá que as ONGs demonstrem a eficácia de seus esforços de preservação, aumentando assim sua credibilidade perante os investidores.
-                
-            Além de servir como um canal de comunicação, nossa plataforma também proporcionará ferramentas avançadas para monitoramento e análise de dados ambientais. As ONGs poderão utilizar dispositivos de medição de poluição da água, que oferecemos a um custo acessível, para coletar dados em tempo real sobre a qualidade da água nas áreas que estão protegendo. Esses dados serão integrados na plataforma, permitindo que os investidores acompanhem de perto o progresso e os resultados dos projetos que estão apoiando.
-                
-            Os investidores, por sua vez, terão acesso a uma interface intuitiva onde poderão explorar diversos projetos, analisar dados detalhados e tomar decisões informadas sobre onde investir seus recursos. A plataforma oferecerá relatórios abrangentes e análises de impacto, garantindo que os investidores possam ver claramente como suas contribuições estão fazendo a diferença.
-                
-            Nosso compromisso é criar um ambiente de confiança mútua, onde a transparência e a precisão dos dados coletados fortaleçam a relação entre ONGs e investidores. Ao conectar esses dois grupos de forma eficiente e segura, esperamos não apenas facilitar a captação de recursos para as ONGs, mas também promover um impacto ambiental positivo significativo e duradouro. Nossa visão é apoiar a preservação do meio ambiente marinho, incentivando a colaboração e o compromisso contínuo com a sustentabilidade e a conservação.</p>
+            <div class="texto-direita">
+                <h2>Objetivos</h2>
+                <p>Nosso objetivo é conectar ONGs dedicadas à preservação marinha com investidores por meio de uma
+                    plataforma inovadora. Esta plataforma servirá como um intermediário confiável, onde as ONGs podem
+                    apresentar projetos detalhados e transparentes, usando tecnologia avançada para demonstrar a eficácia de
+                    suas ações. Além de facilitar a comunicação, a plataforma oferecerá ferramentas para monitoramento e
+                    análise de dados ambientais em tempo real, utilizando dispositivos de medição acessíveis. Investidores
+                    terão acesso a uma interface intuitiva para explorar projetos, analisar dados e tomar decisões
+                    informadas. Nosso compromisso é criar um ambiente de confiança mútua, fortalecendo a relação entre ONGs
+                    e investidores e promovendo um impacto ambiental positivo e duradouro.</p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/objetivos.jpeg" alt="Imagem representando os objetivos">
+            </div>
         </section>
 
         <section id="publico" class="container">
-            <h2>Público Impactado</h2>
-            <img src=/Public/Conexão_Marinha/images/publicoalvo.jpg alt="Imagem representando o público impactado">
-            <p>Nosso público impactado abrange tanto ONGs quanto investidores, com um foco principal em auxiliar as ONGs a atrair esses investidores por meio de um ambiente seguro, confiável e de grande visibilidade. Nossa plataforma visa proporcionar às ONGs melhores condições para aumentar sua arrecadação, garantindo a continuidade e ampliação de suas atividades em prol do meio ambiente.
-
-            Ao oferecer um ambiente transparente e seguro, nossa plataforma fortalece a confiança entre as ONGs e os investidores. As ONGs terão à disposição ferramentas para apresentar seus projetos de forma detalhada e transparente, fornecendo informações precisas e verificáveis sobre suas ações e impactos ambientais. Isso não só melhora a credibilidade das ONGs, mas também facilita a captação de recursos essenciais para a continuidade de suas iniciativas de conservação.
-                
-            Para os investidores, a plataforma oferece uma interface intuitiva onde eles podem explorar diversos projetos, analisar dados confiáveis e tomar decisões informadas sobre onde investir seus recursos. A transparência e a segurança dos dados coletados garantem que os investidores possam ver claramente como suas contribuições estão fazendo a diferença, incentivando um maior compromisso com as causas ambientais.
-                
-            Ao conectar ONGs e investidores de maneira eficaz, esperamos ampliar significativamente o impacto positivo dessas organizações. Nossa visão é criar um ecossistema de colaboração e confiança mútua, onde as ONGs possam prosperar e os investidores possam apoiar projetos ambientais com segurança e clareza. Dessa forma, promovemos um desenvolvimento sustentável e responsável, beneficiando tanto as ONGs quanto o meio ambiente como um todo.
-                
-                
-                
-                
-                
-                
-                
-
-
-
-
-
-
-            </p>
+            <div class="texto-direita">
+                <h2>Público Impactado</h2>
+                <p>Nosso público inclui ONGs e investidores, com foco em ajudar as ONGs a atrair investidores em um ambiente
+                    seguro e confiável. A plataforma melhora a arrecadação das ONGs ao oferecer ferramentas para apresentar
+                    projetos de forma detalhada e transparente, aumentando a credibilidade e facilitando a captação de
+                    recursos. Para investidores, a plataforma oferece uma interface intuitiva para explorar projetos,
+                    analisar dados confiáveis e tomar decisões informadas. Ao conectar ONGs e investidores de maneira
+                    eficaz, ampliamos o impacto positivo dessas organizações, promovendo um ecossistema de colaboração e
+                    confiança, beneficiando tanto as ONGs quanto o meio ambiente.</p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/publicoalvo.jpg" alt="Imagem representando o público impactado">
+            </div>
         </section>
 
         <section id="beneficios" class="container">
-            <h2>Benefícios</h2>
-            <img src=/Public/Conxão_Marinha/images/beneficios.jpg alt="Imagem representando os benefícios">
-            <p>Os benefícios de nossa solução são diversos e abrangem tanto as ONGs quanto os investidores. Para as ONGs, oferecemos uma maneira mais eficaz de apresentar seus projetos e atrair financiamento, aumentando assim seu impacto na preservação do meio ambiente marinho. Nossa plataforma permite que as ONGs compartilhem informações detalhadas e verificáveis sobre suas atividades, melhorando a transparência e a credibilidade de seus projetos. Isso facilita a captação de recursos essenciais para a continuidade e expansão de suas iniciativas de conservação.
+            <div class="texto-direita">
+                <h2>Benefícios</h2>
+            <p>Os benefícios de nossa solução abrangem tanto ONGs quanto investidores. Para as ONGs, oferecemos uma
+                plataforma eficaz para apresentar projetos e atrair financiamento, aumentando o impacto na preservação
+                marinha. A plataforma melhora a transparência e credibilidade, facilitando a captação de recursos. Para
+                os investidores, proporcionamos uma interface para encontrar oportunidades de investimento alinhadas com
+                seus valores ambientais, oferecendo dados confiáveis para decisões informadas. Além disso, promovemos a
+                proteção de ecossistemas marinhos ao conectar ONGs e investidores, criando um impacto positivo
+                duradouro. Nossa solução beneficia todos os envolvidos, promovendo a conservação marinha e um futuro
+                sustentável.
+            </p>
+        </div>
+        <div class="imagem-container">
+            <img src="images/beneficios.jpg" alt="Imagem representando os beneficios">
+        </div>
+    </section>
 
-            Para os investidores, proporcionamos uma plataforma onde eles podem encontrar oportunidades de investimento alinhadas com seus valores de conservação ambiental. A plataforma oferece acesso a dados confiáveis e transparentes, permitindo que os investidores tomem decisões informadas e seguras sobre onde alocar seus recursos. Eles poderão acompanhar o progresso dos projetos apoiados em tempo real, garantindo que seus investimentos estejam realmente contribuindo para a proteção do meio ambiente marinho.
-                
-            Além disso, ao incentivar o investimento em iniciativas de conservação marinha, nossa solução contribui significativamente para a proteção e preservação de ecossistemas marinhos vitais em todo o mundo. Ao conectar ONGs e investidores de forma eficaz, promovemos uma colaboração que resulta em benefícios tangíveis para o meio ambiente. Nossa plataforma não apenas facilita a captação de recursos, mas também fortalece a relação de confiança entre as ONGs e os investidores, criando um impacto ambiental positivo e duradouro.
-                
-            Em resumo, nossa solução oferece uma abordagem integrada que beneficia todos os envolvidos. As ONGs recebem o apoio necessário para maximizar seu impacto, os investidores encontram projetos que ressoam com seus valores, e juntos, todos contribuem para a conservação e proteção dos preciosos ecossistemas marinhos, promovendo um futuro mais sustentável.
-                
-                
-                
-                
-                
-                
-                </p>
-        </section>
-
-        <section id="diaadia" class="container">
-            <h2>Tecnologia</h2>
-            <img src=https://th.bing.com/th/id/OIP.CukeLbDkHVCkJjYNjFmngwHaE7?rs=1&pid=ImgDetMain alt="Imagem representand a tecnologia">
-            <p>Estamos comprometidos em trazer a tecnologia para auxiliar as ONGs de maneira inovadora e eficaz. Inicialmente, implementaremos um dispositivo de medição de baixo custo, permitindo que as ONGs monitorem e avaliem seus impactos ambientais de forma acessível e precisa. Esse dispositivo será uma ferramenta crucial para fornecer dados transparentes e confiáveis, essenciais para demonstrar a eficácia de suas ações.
-
-            Em seguida, desenvolveremos uma plataforma de conexão entre as ONGs e potenciais investidores. Essa plataforma será um ponto de encontro onde as ONGs poderão apresentar seus projetos, compartilhar resultados e atrair investimentos. Utilizando tecnologia avançada, criaremos um ambiente seguro e transparente que aumentará a visibilidade das ONGs, facilitando a captação de recursos e o engajamento de investidores.
-                
-            Nossa abordagem tecnológica não só otimizará a operação das ONGs, mas também fortalecerá a confiança dos investidores, garantindo que seus recursos sejam direcionados de maneira eficiente e impactante. Dessa forma, esperamos ampliar significativamente o alcance e a eficácia das iniciativas ambientais, promovendo um desenvolvimento sustentável e responsável.
-                
-                
-                
-                
-                
-                
-                </p>
-        </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Conexão Marinha. Todos os direitos reservados.</p>
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre</h5>
+                    <p>Conexão Marinha é uma plataforma dedicada à preservação e conservação dos ecossistemas marinhos.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <p>Email: contato@conexaomarinha.com<br>
+                        Telefone: (11) 5783-4352</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">&copy; 2024 Conexão Marinha. Todos os direitos reservados.</p>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="index.js"></script>
-    
-    
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
